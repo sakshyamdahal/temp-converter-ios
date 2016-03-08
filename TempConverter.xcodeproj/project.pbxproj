@@ -14,6 +14,7 @@
 		BC12BF481C88B9F30013E17B /* TempConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12BF471C88B9F30013E17B /* TempConverterTests.swift */; };
 		BC12BF531C88B9F30013E17B /* TempConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12BF521C88B9F30013E17B /* TempConverterUITests.swift */; };
 		BC9951711C8C857F007081C6 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9951701C8C857F007081C6 /* ConversionViewController.swift */; };
+		BC9951AD1C8EA4CE007081C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9951AC1C8EA4CE007081C6 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BC12BF521C88B9F30013E17B /* TempConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConverterUITests.swift; sourceTree = "<group>"; };
 		BC12BF541C88B9F30013E17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9951701C8C857F007081C6 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		BC9951AC1C8EA4CE007081C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9951AD1C8EA4CE007081C6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		BC12BF261C88B9F30013E17B = {
 			isa = PBXGroup;
 			children = (
+				BC9951AC1C8EA4CE007081C6 /* MapKit.framework */,
 				BC9951701C8C857F007081C6 /* ConversionViewController.swift */,
 				BC12BF311C88B9F30013E17B /* TempConverter */,
 				BC12BF461C88B9F30013E17B /* TempConverterTests */,
